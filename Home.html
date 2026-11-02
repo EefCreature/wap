@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="px.css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    
+    <head >
+        <div class="hed">
+            <a href="Home.html">
+            <img src="im/im_4.png" width="100" height="100" class="hed">
+            
+            <div class="h_title">
+                <h1 class="h_title">
+                    Eat your ducks 
+                </h1>
+            </div>
+            </a>
+        </div>
+        
+    </head>
+    <main>
+        <div class="info_box">
+            <h1>
+                info
+            </h1>
+            <p id="text">
+                This is the website about what may or may not exist of where they locate and how they can be cook
+            </p>
+        </div>
+            
+        <div class="cl_layout_lessing">
+            
+            <h1 class ="title">
+                Duck
+            </h1>
+            <div class="cl_layout_less" id="id_ductless">
+                
+                 
+            </div>
+           
+            <a href="list_ducks.html" class="link_listening">all Duck</a>
+        </div>
+        <div class="cl_layout_lessing">
+            
+            <h1 class ="title">
+                Recipe
+            </h1>
+            <div class="cl_layout_less" id="id_recipe_less">
+                
+                 
+            </div>
+           
+            <a href="list_recipe.html" class="link_listening">all Recipe</a>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Made buy Ethan 
+        </p>
+        <button onclick="speakText()">&#128264;Text to Speech</button>
+
+    <dialog id="dialogContainer" class="preference-panel">
+    <h4>Preference Settings</h4>
+    <!--Text size options-->
+    <label>Select Text Size: </label>
+    <select id="sizeOption" onchange="customizeText()" > 
+      <option value="35px">VERY BIG</option>
+      <option value="25px">BIG</option>
+      <option value="16px">NORMAL</option>       
+    </select>  
+    <br> 
+    <!--Theme: Dark mode / Light mode toggle-->
+    <label for="themeToggle">Dark Mode</label>
+    <input type="checkbox" id="themeToggle" onchange="toggleMode()" >
+    <br><br>
+    <button onclick="document.getElementById('dialogContainer').close()">SAVE</button>
+  </dialog>
+  <button onclick="document.getElementById('dialogContainer').showModal()">PREFERENCE SETTINGS </button>
+  
+    </footer>
+    <script src="pays_listings.js"></script>
+    <script src="px.js"></script>
+    <script src="size_opthion.js"></script>
+</body>
+</html>

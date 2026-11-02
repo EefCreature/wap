@@ -1,0 +1,17 @@
+footer{
+    padding: 5px;
+    min-height: 5px;
+    background-color: #bbbbbb;
+    position: relative  ;
+    top: 50px;
+    text-align: center;
+    
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    footer{ 
+        padding: 15px;
+    }
+}

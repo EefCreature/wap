@@ -1,0 +1,95 @@
+.info_box{
+    background-color: #bbbbbb;
+    top: 10px;
+    position: relative ;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    min-height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    
+}
+
+.cl_layout_lessing{
+    background-color: #bbbbbb;
+    position: relative;
+    min-width: min-content;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.img_title{
+    width: 100%;
+    position: absolute;
+    
+}
+
+
+p.info_box{
+    white-space: pre-line;
+}
+
+
+div.cl_bot{
+    background-color: aliceblue;
+    display: grid;
+    text-align: left;
+    width: max-content;
+    text-size-adjust: 10px;
+    size: 10px;
+    padding: 8px;
+    padding-left: 4px;
+    border: 10px solid #bbbbbb;  
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+a.cl_bot{
+    color: black;
+    font-size: 20px;
+    text-decoration-line:none;
+    font-weight: bold;
+}
+
+img.cl_bot{
+    width: 200;
+    vertical-align: middle;
+}
+
+.title{
+    text-align: center;
+    z-index: 1;
+}
+
+.link_listening{
+    color: #000;
+    background-color: rgba(240, 248, 255, 0.432);
+    padding: 8px;
+    font-size: 15px;
+    text-decoration-line: none;
+    
+    text-align: center;
+    position: relative;
+    left: 135px;
+    top: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+    div.cl_bot{ 
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .cl_layout_lessing{
+        width: 750px;
+    }
+    .link_listening{
+        left: 320px;
+        font-size: 20px;
+    }
+}

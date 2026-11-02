@@ -1,0 +1,63 @@
+.hed{
+    height: 50px;
+    background-color: #bbbbbb;
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+    padding: 10px;
+    padding-top: 8px;
+}
+
+
+
+img.hed{
+    border-right: 20px solid #bbbbbb;
+    height: 40px;
+    width: 40px;
+    position: flex ;
+    left: 10px;
+    top: auto;
+    bottom: auto;
+}
+
+.h_title{
+    position: fixed;
+    top: 6px ;
+    left: 100px;
+    color: #000;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 524px) {
+  .hed {
+    height: 100px;
+    padding-top: 0px;
+  }
+  img.hed{
+    width: 80px;
+    height: 80px;
+  }
+  .h_title{
+    top: 15px ;
+    left: 150px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .hed {
+    height: 100px;
+    }
+    img.hed{
+        width: 80px;
+        height: 80px;
+    }
+    .h_title{
+        top: 15px ;
+        left: 150px;
+        font-size: 40px;
+  }
+}
+

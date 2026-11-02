@@ -1,0 +1,38 @@
+.mop{
+    
+    position: relative;
+    min-width: min-content;
+    padding-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 203, 203);
+}
+
+
+.head_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    width: 25%;
+    background-color: #bbbbbb;
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+.info_box{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    text-align: center;
+    background-color: #bbbbbb;
+}
+
+

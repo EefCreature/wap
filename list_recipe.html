@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Ducks</title>
+    <link rel="stylesheet" href="less_ducks.css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <head >
+        <div class="hed">
+            <a href="Home.html">
+            <img src="im/im_4.png" width="100" height="100" class="hed">
+            
+            <div class="h_title">
+                <h1 class="h_title">
+                    Eat your ducks 
+                </h1>
+            </div>
+            </a>
+        </div>
+        
+    </head>
+    <main>
+        
+        <div>
+            <h1 class="title">
+                list Recipe
+            </h1>
+            <div class="search">
+                <input  type="text" id="searchInput" onchange="displayFilteredItems()"> 
+            </div>
+            <div class="cl_ducks" id="id_ducks">
+                
+            </div>
+           
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Made buy Ethan 
+        </p>
+        <dialog id="dialogContainer" class="preference-panel">
+    <h4>Preference Settings</h4>
+    <!--Text size options-->
+    <label>Select Text Size: </label>
+    <select id="sizeOption" onchange="customizeText()" > 
+      <option value="35px">VERY BIG</option>
+      <option value="25px">BIG</option>
+      <option value="16px">NORMAL</option>       
+    </select>  
+    <br> 
+    <!--Theme: Dark mode / Light mode toggle-->
+    <label for="themeToggle">Dark Mode</label>
+    <input type="checkbox" id="themeToggle" onchange="toggleMode()" >
+    <br><br>
+    <button onclick="document.getElementById('dialogContainer').close()">SAVE</button>
+  </dialog>
+  <button onclick="document.getElementById('dialogContainer').showModal()">PREFERENCE SETTINGS </button>
+  
+    </footer>
+
+    <script src="pays_listings.js"></script>
+    <script src="list_recipe.js"></script>
+    <script src="size_opthion.js"></script>
+</body>
+</html>
